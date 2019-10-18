@@ -18,9 +18,7 @@
 ## 使用技術
 
 * HTML5
-* CSS Flexbox
-* CSS Animation
-* CSS New Features
 * SASS/SCSS
-    - BEM
-    - 7-1 system
+* CSS Animation
+* CSS Flexbox
+* Using CSS custom properties (variables)
