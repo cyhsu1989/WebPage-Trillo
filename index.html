@@ -81,7 +81,7 @@
                     </ul>
 
                     <div class="legal">
-                        &copy; 2019 by trillo. All rights reserved.
+                        &copy; <span id="__year"></span> by trillo. All rights reserved.
                     </div>
                 </nav>
                 <main class="hotel-view">
@@ -91,3 +91,9 @@
         </div>
     </body>
 </html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("__year").innerText = new Date().getFullYear();
+    });
+</script>
