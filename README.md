@@ -21,3 +21,4 @@
 * CSS Animation
 * CSS Flexbox
 * Using CSS custom properties (variables)
+* icon 使用 SVG，透過使用 sprite 的方式，將多張圖片集合成一張，減少 request 圖片的次數
